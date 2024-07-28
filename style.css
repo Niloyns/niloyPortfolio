@@ -147,6 +147,11 @@ section:nth-child(2n) {
   background-color: white;
   border-radius: 1.8rem;
   /* border: 2px solid black; */
+  margin: 10px;
+}
+
+.skills-progress:hover {
+  box-shadow: 0 0 6px 4px rgb(110, 110, 110);
 }
 
 .skills-progress > div {
