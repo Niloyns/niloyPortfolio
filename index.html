@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NiloySarkar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d646a66da9.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="body-header">
+        <div id="bg-video-container">
+            <video autoplay muted loop id="bg-video">
+                <source src="/photos/MyResumeVideo.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+        <nav>
+            <ul class="horizontal-list text-center nav-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="name-social-container">
+            <div class="text-center">
+                <h1 id="my-name">Niloy Sarkar</h1>
+                <p>I am a Full Stack Developer and <span id="element" style="color: red;"></span></p>
+            </div>
+            <ul class="horizontal-list text-center social-icon">
+                <li><a href="https://www.linkedin.com/in/niloy-ns/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/Niloyns"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://x.com/niloysarkarNS"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="https://leetcode.com/u/niloysarkar1998/"><i class="fa-brands fa-stack-overflow"></i></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="About">
+            <div id="my-image">
+                <img src="/photos/myPhoto.png" alt="">
+            </div>
+            <div id="aboutMe">
+                <p>A highly skilled Full Stack Web Developer and Software Engineer with extensive experience in
+                    modern web
+                    development technologies, including Java, Python, HTML, CSS, Bootstrap, Sass, JavaScript,
+                    jQuery,
+                    Node.js, npm, Express.js, EJS, MongoDB, Passport.js, JWT, RESTful API, REST API, and MVC
+                    frameworks.
+                    Proficient in both SQL and NoSQL database management systems (DBMS), with hands-on experience
+                    using
+                    tools like Git, GitHub, and Docker for version control and containerization. Adept at leveraging
+                    WordPress for content management and familiar with the intricacies of software development,
+                    operating
+                    systems, and database design. Known for strong problem-solving abilities, excellent
+                    communication skills,
+                    and the capability to deliver efficient, scalable, and user-centric solutions. Passionate about
+                    staying
+                    current with industry trends and continuously enhancing my skill set to drive innovation and
+                    success in
+                    collaborative environments.</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h1 class="section-heading mb75px">
+                <span><i class="fa-regular fa-file-code"></i></span>
+                <span>SKILLS</span>
+            </h1>
+            <div class="slills-display">
+
+            </div>
+        </section>
+        <section id="experince"></section>
+        <section id="education"></section>
+        <section id="portfolio"></section>
+        <section id="contact"></section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Software Engineer', 'Front End Developer', 'Back End Developer', 'MERN Stack Developer', 'Full Stack Web Developer'],
+            typeSpeed: 90,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
