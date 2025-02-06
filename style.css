@@ -283,7 +283,6 @@ section:nth-child(2n) {
   width: 100%;
   color: transparent;
   text-align: center;
-  /* padding: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
